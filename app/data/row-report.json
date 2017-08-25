@@ -1,0 +1,16 @@
+[
+  {
+    "columns": {
+      "names":    [ "id", "", "Set 1", "Set 2", "Set 3", "Set 4", "Set 5" ],
+      "colMap":   [ ],
+      "colID":    [ "", "", "1256", "5436", "8788","5456", "8648" ],
+      "hdrAttr":  [ "hide", "text-left", "text-right", "text-right", "text-right","text-right", "text-right" ],
+      "cellAttr": [ "hide", "text-left info", "text-right", "text-right", "text-right","text-right", "text-right" ]
+    },
+    "rows": [
+      { "values": [ "12345", "Weight", "135", "155", "185", "215", "225" ] },
+      { "values": [ "63346", "Reps", "10", "8", "6", "4", "3" ] },
+      { "values": [ "71397", "Rest", "90", "90", "90", "90", "90" ] }
+    ]
+  }
+]

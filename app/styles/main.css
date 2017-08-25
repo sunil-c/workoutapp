@@ -1,0 +1,214 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/*
+Note: any .css or .scss files included in the 'styles' directory
+will be correctly compiled during `gulp serve` and `gulp`
+ */
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-bottom{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*td.cell[contenteditable=true] { outline: 1px dotted rgba(0, 170, 255, 0.5); }*/
+
+table td.cell {
+  position: relative;
+}
+
+table td.cell input {
+  position: absolute;
+  display: block;
+  top:0;
+  left:0;
+  margin: 0;
+  height: 100% !important;
+  width: 100%;
+  border-radius: 0 !important;
+  border: none;
+  padding: 5px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.panel-body{
+    padding: 5px;
+}
+.dynamic-strength-table {
+    padding: 0;
+}
+
+#login-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* add this to anything you want to be XX px wide */
+.control-100{
+    width: 100px;
+}
+.control-150{
+    width: 150px;
+}
+.control-200{
+    width: 200px;
+}
+
+/* add a top margin to control-150 for Landscape phones and tablets and down */
+@media (max-width: 780px) {
+    .control-100 {
+        margin-top: 5px;
+    }
+    .control-150 {
+        margin-top: 5px;
+    }
+    .control-200 {
+        margin-top: 5px;
+    }
+    .control-menu{
+        margin-top: 5px;
+    }
+}
+
+/* add white space top left right bottom */
+.mgn-left-1 {
+    margin-left: 1px !important;
+}
+
+.mgn-left-2 {
+    margin-left: 2px !important;
+}
+
+.mgn-left-3 {
+    margin-left: 3px !important;
+}
+
+.mgn-left-4 {
+    margin-left: 4px !important;
+}
+
+.mgn-left-5 {
+    margin-left: 5px !important;
+}
+
+.mgn-left-6 {
+    margin-left: 6px !important;
+}
+
+.mgn-left-7 {
+    margin-left: 7px !important;
+}
+
+.mgn-left-8 {
+    margin-left: 8px !important;
+}
+
+.mgn-left-9 {
+    margin-left: 9px !important;
+}
+
+.mgn-left-10 {
+    margin-left: 10px !important;
+}
+
+.mgn-right-1 {
+    margin-right: 1px !important;
+}
+
+.mgn-right-2 {
+    margin-right: 2px !important;
+}
+
+.mgn-right-3 {
+    margin-right: 3px !important;
+}
+
+.mgn-right-4 {
+    margin-right: 4px !important;
+}
+
+.mgn-right-5 {
+    margin-right: 5px !important;
+}
+
+.mgn-right-6 {
+    margin-right: 6px !important;
+}
+
+.mgn-right-7 {
+    margin-right: 7px !important;
+}
+
+.mgn-right-8 {
+    margin-right: 8px !important;
+}
+
+.mgn-right-9 {
+    margin-right: 9px !important;
+}
+
+.mgn-right-10 {
+    margin-right: 10px !important;
+}
+
+.mgn-bottom-1 {
+    margin-bottom: 1px !important;
+}
+
+.mgn-bottom-2 {
+    margin-bottom: 2px !important;
+}
+
+.mgn-bottom-3 {
+    margin-bottom: 3px !important;
+}
+
+.mgn-bottom-4 {
+    margin-bottom: 4px !important;
+}
+
+.mgn-bottom-5 {
+    margin-bottom: 5px !important;
+}
+
+.mgn-top-1 {
+    margin-top: 1px !important;
+}
+
+.mgn-top-2 {
+    margin-top: 2px !important;
+}
+
+.mgn-top-3 {
+    margin-top: 3px !important;
+}
+
+.mgn-top-4 {
+    margin-top: 4px !important;
+}
+
+.mgn-top-5 {
+    margin-top: 5px !important;
+}

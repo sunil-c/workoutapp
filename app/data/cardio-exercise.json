@@ -1,0 +1,17 @@
+[
+  {
+    "exerciseID": 100,
+    "exerciseName": "Cardio Exercise",
+    "columns": {
+      "names":    [ "Cardio", "" ],
+      "colMap":   [ "", "set1001"],
+      "colID":    [ ],
+      "hdrAttr":  [ "text-left", "text-left" ],
+      "cellAttr": [ "text-left", "text-left cell" ]
+    },
+    "rows": [
+      { "values": [ "Distance", "3KM" ] },
+      { "values": [ "Duration", "30" ] }
+    ]
+  }
+]

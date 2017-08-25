@@ -1,0 +1,19 @@
+[
+  {
+    "exerciseID": 200,
+    "exerciseName": "HIIT Exercise",
+    "columns": {
+      "names":    [ "id", "", "Set 1", "Set 2", "Set 3", "Set 4", "Set 5" ],
+      "colMap":   [ ],
+      "colID":    [ "", "", "1256", "5436", "8788","5456", "8648" ],
+      "hdrAttr":  [ "hide", "text-left", "text-right", "text-right", "text-right","text-right", "text-right" ],
+      "cellAttr": [ "hide", "text-left ", "text-right cell", "text-right cell", "text-right cell","text-right cell", "text-right cell" ]
+    },
+    "rows": [
+      { "values": [ "12345", "Squat-Jump", "15", "15", "15", "15", "15" ] },
+      { "values": [ "63346", "Pushups", "12", "12", "12", "12", "12" ] },
+      { "values": [ "71397", "Wallball", "10", "10", "10", "10", "10" ] },
+      { "values": [ "71397", "Pull-ups", "10", "10", "10", "10", "10" ] }
+    ]
+  }
+]

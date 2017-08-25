@@ -1,0 +1,18 @@
+[
+  {
+    "exerciseID": 300,
+    "exerciseName": "Strength Exercise",
+    "columns": {
+      "names":    [ "Set", "1", "2", "3", "4", "5" ],
+      "colMap":   [ "", "set1001", "set1002", "set1003", "set1004", "set1005"],
+      "colID":    [ ],
+      "hdrAttr":  [ "text-left", "text-right", "text-right", "text-right","text-right", "text-right" ],
+      "cellAttr": [ "text-left", "text-right cell", "text-right cell", "text-right cell","text-right cell", "text-right cell" ]
+    },
+    "rows": [
+      { "values": [ "Weight", "135", "155", "185", "215", "225" ] },
+      { "values": [ "Reps", "10", "8", "6", "4", "3" ] },
+      { "values": [ "Rest", "90", "90", "90", "90", "90" ] }
+    ]
+  }
+]

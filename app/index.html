@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xrcisr</title>
+
+  <script src="scripts/firebase.min.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB3SeYusHkllQLVwVwfENWTtjAON01drbE",
+      authDomain: "xrcisr-52da8.firebaseapp.com",
+      databaseURL: "https://xrcisr-52da8.firebaseio.com",
+      projectId: "xrcisr-52da8",
+      storageBucket: "xrcisr-52da8.appspot.com",
+      messagingSenderId: "567164891128"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="scripts/firebaseui.min.js"></script>
+  <link rel="stylesheet" href="styles/firebaseui.min.css" />
+  <link rel="stylesheet" href="styles/paper.min.css">
+  <link rel="stylesheet" href="styles/bootstrap-datepicker3.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body style="padding-bottom: 70px;">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Xrcisr</a>
+        <div class="container section show" data-route="login">
+          <div id="user-signed-in" class="pull-right">
+            <div><span id="name"></span>&nbsp;<span id="email"></span></div>
+            <div>
+              <span><a id="sign-out" class="" role="button">Sign Out</a></span>
+              <span><a id="delete-account" class="" role="button">Delete account</a></span>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-bottom">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <div class="input-group">
+          <!-- <div class="control-150"><input type="text" class="form-control" placeholder="Choose Date" id="datepick"></div> -->
+          <div class="input-group date">
+            <input type="text" class="form-control" id="datepick"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+            <input type="hidden" id="date-val" />
+          </div>
+          <span class="input-group-btn">
+            <a href="#/addExercise" class="btn btn-default pull-right">Add Exercise</a>
+          </span>
+        </div>
+        <!-- /input-group -->
+      </div>
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <!-- message container -->
+    <div id="msgContent"></div>
+    <!-- Login Container -->
+    <div id="loginSection" class="container section show" data-route="login">
+      <div id="login-container">
+        <div id="loading">Loading...</div>
+        <div id="loaded">
+          <div id="main">
+            <div id="user-signed-out" class="hide">
+              <h4>You are signed out.</h4>
+              <div id="firebaseui-spa">
+                <div id="firebaseui-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Data Container -->
+    <div id="dataSection" class="container section" data-route="showData">
+
+    </div> 
+
+  </div>
+
+  <!-- template for exercise -->
+  <div id="__card-template" class="panel panel-info template-output hide" data-id="">
+    <div class="panel-heading">
+      <h3 class="panel-title pull-left"></h3>
+      <a href="#/addSet/" class="btn btn-default btn-sm pull-right"><i class="glyphicon glyphicon-plus"></i></a>
+      <div class="clearfix"></div>
+    </div>
+    <div class="panel-body">
+      <div class="dynamic-strength-table container-fluid">
+
+      </div>
+    </div>
+  </div>
+  <div id="msgContent">
+  </div>
+
+  <!-- build:js -->
+  <script src="scripts/firebase-init.js"></script>
+
+  <script src="scripts/jquery-3.2.1.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/director.min.js"></script>
+  <script src="scripts/handlebars.min.js"></script>
+  <script src="scripts/moment.min.js"></script>
+  <script src="scripts/bootstrap-datepicker.min.js"></script>
+
+  <script src="scripts/classes.js"></script>
+  <script src="scripts/sw-init.js"></script>
+  <script src="scripts/app.js"></script>
+  <!-- endbuild -->
+
+</body>
+
+</html>
