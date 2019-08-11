@@ -1,5 +1,5 @@
 ## Overview
-This app started with the Google Web Starter kit.
+This app is written entirely in Javascript. 
 
 ## Quickstart
 
