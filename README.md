@@ -1,11 +1,12 @@
+## Xrcsr -- a workout journal
+
 ## Overview
+This app is intended to help  user keep track of their exercise routine.
+
+## Tech
 This app is written entirely in Javascript. 
 
-## Quickstart
-
-## Web Performance
-
-## Docs and Recipes
+## Docs 
 
 
 ## Inspiration
